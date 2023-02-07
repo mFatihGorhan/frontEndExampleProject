@@ -1,6 +1,123 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+    background: #0E192D;
+    color: rgb(199, 198, 198);
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    background: #15263F;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* card header start */
+
+.container .card-header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container .card-header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.container .card-header h3 {
+    color: #fff;
+    padding-top: 15px;
+}
+
+/* card-header end */
+
+/* card-info start */
+
+.container .card-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.container .card-info p {
+    color: #7F94B1;
+    font-size: 12pt;
+    margin: 10px 15px 0 0;
+}
+
+.container .card-info .iconSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.container .card-info .iconSection img {
+    width: 10px;
+    height: 17px;
+    margin-top: 10px;
+}
+
+.container .card-info .iconSection .eth {
+    color: #41DCE2;
+    padding-right: 35px;
+}
+
+/* card-info end */
+
+/* card-footer start */
+.container .card-footer {
+    display: flex;
+}
+
+.container .card-footer .footer-content {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.container .card-footer .footer-content .avatar {
+    width: 35px;
+    height: 35px;
+}
+
+.container .card-footer .footer-content p {
+    color: #7F94B1;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.container .card-footer .footer-content span {
+    color: #FFF;
+}
+
+/* card-footer end */
+
+.hrCustom {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: .6;
+
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
