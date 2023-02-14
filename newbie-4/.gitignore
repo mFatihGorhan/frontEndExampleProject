@@ -9,6 +9,7 @@
 *.jpg
 *.png
 img/
+image/
 
 # videos
 *.mp4
