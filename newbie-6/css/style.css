@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.container {
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+
+.left-side {
+    width: 300px;
+    height: 400px;
+    background: hsl(252, 100%, 67%);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side .lead {
+    padding-top: 15px;
+    color: rgb(217, 210, 210);
+}
+
+.left-side .score {
+    width: 150px;
+    height: 150px;
+    background: hsla(256, 72%, 46%, 1);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side .score h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.left-side .score p {
+    color: rgba(159, 155, 155, 0.92);
+}
+
+.left-side .result-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-side .result-area h2 {
+    padding-bottom: 15px;
+    color: white;
+}
+
+.left-side .result-area p {
+    color: rgb(217, 210, 210);
+}
+
+.right-side {
+    width: 300px;
+    height: 400px;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-side h3 {
+    padding-left: 10px;
+}
+
+.right-side .skills ul li {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.right-side .skills .reaction {
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 60px;
+    background: rgba(233, 85, 85, 0.068);
+    background-image: url(/newbie-6/assets/images/icon-reaction.svg);
+    background-repeat: no-repeat;
+    background-position: top 10px left 20px;
+    color: #fb0000;
+}
+
+.right-side .skills .memory {
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 60px;
+    background: rgba(255, 166, 0, 0.072);
+    background-image: url(/newbie-6/assets/images/icon-memory.svg);
+    background-repeat: no-repeat;
+    background-position: top 10px left 20px;
+    color: #edcb40;
+}
+
+.right-side .skills .verbal {
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 60px;
+    background: rgba(19, 175, 162, 0.098);
+    background-image: url(/newbie-6/assets/images/icon-verbal.svg);
+    background-repeat: no-repeat;
+    background-position: top 10px left 20px;
+    color: #30b191;
+}
+
+.right-side .skills .visual {
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 60px;
+    background: rgba(6, 16, 157, 0.078);
+    background-image: url(/newbie-6/assets/images/icon-visual.svg);
+    background-repeat: no-repeat;
+    background-position: top 10px left 20px;
+    color: #7856FF;
+}
+
+.right-side h3 {
+    padding-top: 15px;
+}
+
+.btn {
+    width: 250px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background: rgba(13, 13, 94, 0.678);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+span {
+    color: black;
+    font-weight: 600;
+}
+
+.right {
+    color: rgb(143, 143, 150);
+    font-weight: normal;
+}
